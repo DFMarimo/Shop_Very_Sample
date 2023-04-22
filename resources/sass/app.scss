@@ -1,0 +1,30 @@
+@import "bootstrap/dist/css/bootstrap.rtl.min.css";
+@import "vazirmatn/Vazirmatn-font-face.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+* {
+    font-family: Vazirmatn, serif;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    background: #fafafa;
+}
+
+.card-cus {
+    min-height: 385.7px;
+
+    .card-img-top {
+        min-height: 225px;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
